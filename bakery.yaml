@@ -1,0 +1,5 @@
+commit: HEAD
+process_files: [cwTeXMing-zhonly.ttf, src/cwTeXMing.ttf, src/cwTeXMing-ofl.ttf, src/Quattrocento-Regular.ttf]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
